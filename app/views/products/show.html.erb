@@ -1,5 +1,6 @@
 <%= link_to "Back to Products", '/products' %>
 
 
-<p><%= @product[:id] %><%= @product[:name] %>, <%= @product[:description] %> <%= @product.formatted_price%></p>
+<p>
+	ID:<%= @product[:id] %> &#32; Name:<%= @product[:name] %> &#32; Descrip:<%= @product[:description] %> &#32; Price:<%= @product.formatted_price%></p>
 <img src="<%= @product[:url] %>">

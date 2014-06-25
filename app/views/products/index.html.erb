@@ -3,7 +3,7 @@
 
 <% @products.each do |product| %>
   <p>
-  	<%= product[:id] %>, <%= product[:name] %>, <%= product[:description]%>, <%= product[:price_in_cents] %>
+  	ID:<%= product[:id] %>  &#32; Name:<%= product[:name] %>  &#32;  Descrip:<%= product[:description]%> &#32;  Price:<%= product[:price_in_cents] %>
   </p>
 
 <% end %>
